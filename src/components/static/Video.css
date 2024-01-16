@@ -1,0 +1,9 @@
+/* Video.css */
+.replay-btn:hover,
+.backward-btn:hover,
+.forward-btn:hover,
+.zoom-btn:hover {
+  /* Add your hover styles here */
+  color: #333;
+  transform: scale(1.1);
+}

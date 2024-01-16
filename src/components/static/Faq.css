@@ -1,0 +1,28 @@
+.faq-question {
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .faq-content {
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  }
+  
+  .faq-item:hover .faq-question {
+    background-color: #edf2f7; /* Add your desired background color */
+  }
+  
+  .faq-item .faq-content.expanded {
+    max-height: 200px; /* Adjust the max height as needed */
+    opacity: 1;
+  }
+  
+  .faq-item .faq-content p {
+    margin: 10px 0;
+  }
+  
+  .rotate-180 {
+    transform: rotate(180deg);
+  }
+  
